@@ -41,7 +41,7 @@ const App = () =>{
 
   return(
     <div className="container mb-2">
-      <h1 className="my-5">Form</h1>
+      <h1 className="my-5"> ToDo Eingeben</h1>
       <Formular addTodo={addTodo}></Formular>
       <Todos todos={orderTodo(todos)}
       deleteTodo={deleteTodo}

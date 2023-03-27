@@ -17,6 +17,7 @@ const Todo = ({todo,deleteTodo,updateTodo}) => {
                 <button onClick={()=> deleteTodo(id)} className="btn btn-sm btn-danger">Delete</button>
                 <button onClick={()=> updateTodo(id)} className="btn btn-sm btn-warning">Update</button>
               </div>
+              
               <span className="badge text-bg-primary">{priority && "Priorität"}</span>
             </div>
           </div>

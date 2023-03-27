@@ -71,15 +71,15 @@ const Formular = ({addTodo}) => {
             checked={priority}
             onChange={handleChange}
           />
-          <label htmlFor="inputCheck">Dar prioridad</label>
+          <label htmlFor="inputCheck">Priorität geben</label>
         </div>
         <select
           className="form-select mb-2"
           name="state"
           value={state}
           onChange={handleChange}>
-          <option value="pendiente">Pendiente</option>
-          <option value="complet">Completado</option>
+          <option value="pendiente">unerledigt</option>
+          <option value="complet">Erledig</option>
         </select>
         
         <button type="submit" className="btn btn-primary">
